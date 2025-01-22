@@ -1,0 +1,25 @@
+{
+  "name": "fiche-exercice1",
+  "version": "1.0.0",
+  "description": "Ce projet est un projet de démonstration pour apprendre à créer une api statique avec Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fiche-exercice1"
+  },
+  "author": "Victor Dauphin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.3"
+  }
+}
