@@ -1,9 +1,6 @@
 import { Request, Response } from "express";
 import { todos, users } from "../utils/data.utils";
 
-export const getAllDashboard = (req: Request, res: Response): void => {
-    res.status(200).json({ users, todos});
-};
 export const getUserDashboard = (req: Request, res: Response): void => {
     const { userId } = req.params;
 
