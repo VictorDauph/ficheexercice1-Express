@@ -3,7 +3,6 @@ import { getAllDashboard, getUserDashboard } from "../controllers/dashboardContr
 
 const router = Router();
 
-router.get('/dashboard/', getAllDashboard);
 router.get('/dashboard/:userId', getUserDashboard);
 
 export default router;
